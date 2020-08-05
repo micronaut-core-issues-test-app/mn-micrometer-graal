@@ -1,8 +1,8 @@
-## Feature management documentation
+# Micronaut Micrometer Cloud Watch
 
-- [Micronaut Micronaut Management documentation](https://docs.micronaut.io/latest/guide/index.html#management)
+Test application for Micronaut Micrometer Cloud Watch and GraalVM:
 
-## Feature http-client documentation
-
-- [Micronaut Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
+```
+curl localhost:8080/hello/micronaut
+curl localhost:8080/metrics/web.access
+```
