@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: example.micronaut
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [app-name, docker, file-watch, graalvm, gradle, http-client, java, java-application, junit, logback, management, micrometer, micrometer-cloudwatch, netty-server, readme, shade, yaml]

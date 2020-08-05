@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: demo
+  metrics:
+    export:
+      cloudwatch:
+        enabled: true
+    enabled: true
